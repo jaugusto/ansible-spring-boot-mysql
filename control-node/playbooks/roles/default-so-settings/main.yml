@@ -1,0 +1,9 @@
+- name: upgrade centos packages
+  yum:
+    name: '*'
+    state: latest
+
+- name: install the git client
+  yum:
+    name: git
+    state: latest
