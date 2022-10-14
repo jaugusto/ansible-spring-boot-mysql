@@ -11,7 +11,7 @@
     - dbusername: "root"
     - dbpassword: "root"
   tasks:
-    - name: setting ansible hosts...
+    - name: setting ansible hosts
       lineinfile: 
         dest: /etc/hosts
         state: present
